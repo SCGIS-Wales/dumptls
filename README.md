@@ -1,4 +1,4 @@
-![release](![example workflow](https://github.com/SCGIS-Wales/dumptls/blob/main/.github/workflows/release.yml/badge.svg)
+![release](https://github.com/SCGIS-Wales/dumptls/actions/workflows/release.yml/badge.svg)
 
 # dumptls
 
