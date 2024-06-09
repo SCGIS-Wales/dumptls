@@ -23,11 +23,25 @@ You can also specify a port and a resolve IP address:
 dumptls example.com --port 8443 --resolve-ip-address 192.168.1.1
 ```
 
-Example output:
+**Example output:**
 
-- output file in base64 (pem) format
+1) output file in **base64** (pem) format (see example below)
 
-- stdout with following example output (common names for all TLS certificates and their seria numbers)
+```
+-----BEGIN CERTIFICATE-----
+***
+-----END CERTIFICATE-----
+
+-----BEGIN CERTIFICATE-----
+***
+-----END CERTIFICATE-----
+
+-----BEGIN CERTIFICATE-----
+***
+-----END CERTIFICATE-----
+```
+
+2) stdout with following example output (**common names** for all TLS certificates and their **serial numbers**)
 
 ```
 Certificates have been saved to cert_chain.pem
@@ -35,7 +49,6 @@ Common Name: www.google.com, Serial Number: 276676235549746405282904896944097780
 Common Name: GTS CA 1C3, Serial Number: 159612451717983579589660725350
 Common Name: GTS Root R1, Serial Number: 159159747900478145820483398898491642637
 ```
-
 
 
 ##  Building and Installing the Package
