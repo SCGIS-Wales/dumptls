@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='dumptls',
-    version='0.2.1',  # This will be dynamically updated by the GitHub Action
+    version='0.3.0',  # This will be dynamically updated by the GitHub Action
     packages=find_packages(),
     include_package_data=True,
     install_requires=[
