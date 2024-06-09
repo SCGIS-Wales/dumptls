@@ -1,3 +1,5 @@
+![release](![example workflow](https://github.com/SCGIS-Wales/dumptls/blob/main/.github/workflows/release.yml/badge.svg)
+
 # dumptls
 
 A tool to download TLS certificates including intermediate and root CA certs.
